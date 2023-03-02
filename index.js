@@ -41,7 +41,7 @@ app.get("/book/:id" , async (req, res) => {
     }
 });
 
-app.get("/create" , (req, res) => {
+app.get("/create",async (req, res) => {
     res.render("create");
 });
 
